@@ -1,0 +1,60 @@
+section{
+    background-color: darkslategray;
+    width: 500px;
+    padding: 15px;
+}
+
+.link-div{
+    display: flex;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    width:50%;
+    height: fit-content;
+    text-align: center;
+    padding: 16px 0;
+}
+
+.linkSign{
+    background-color: lightseagreen;
+}
+
+.linkLog{
+    background-color: rgb(117, 117, 117);
+}
+h2{
+    text-align: center;
+    color: white;
+}
+
+.gdiv{
+    display: flex;
+    flex-direction: column;
+}
+
+.divNames {
+    display: flex;
+    gap: 5px;
+}
+
+.divNames input{
+    width: 100%;
+}
+
+input{
+    margin-top: 10px;
+    background:none;
+    border: gray solid 1px;
+}
+
+button{
+    border: none;
+    height: 50px;
+    width: 100%;
+    margin-top: 10px;
+    background-color: lightseagreen;
+    color: white;
+
+}
