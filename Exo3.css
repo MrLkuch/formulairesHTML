@@ -1,0 +1,102 @@
+section{
+    background-color: rgb(47, 79, 54);
+    width: 500px;
+    padding: 0px 0px 15px 0px;
+    border-radius: 15px;
+    font-family: Calibri;
+}
+
+.link{
+    display: flex;
+    
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    width:50%;
+    height: fit-content;
+    text-align: center;
+    padding: 16px 0;
+}
+
+.link_sign{
+    background-color: rgb(49, 178, 32);
+    border-radius: 15px 0px 0px 15px;
+}
+
+.link_log{
+    background-color: rgb(117, 117, 117);
+    border-radius: 0px 15px 15px 0px;
+}
+h2{
+    text-align: center;
+    color: white;
+}
+
+.formulaire{
+    display: flex;
+    flex-direction: column;
+}
+
+.formulaire_names {
+    display: flex;
+    gap: 5px;
+}
+
+.formulaire_names input{
+    width: 100%;
+}
+
+input{
+    margin-top: 10px;
+    background:none;
+    border: gray solid 1px;
+}
+
+button{
+    border: none;
+    height: 50px;
+    width: 100%;
+    margin-top: 10px;
+    background-color: rgb(49, 178, 32);
+    color: white;
+    border-radius: 15px;
+}
+
+.div_radio{
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    color: gray;
+
+
+    margin-top: 10px;
+    
+}
+
+.div_radio input{
+    margin: 0;
+    accent-color: rgb(49, 178, 32);
+
+}
+
+select{
+    margin-top: 10px;
+    background: none;
+    color: gray;
+
+}
+
+option{
+    background-color: rgb(47, 79, 54);
+    color: gray;
+
+}
+
+
+
+.titleform{
+    padding: 0px 15px;
+}
+
